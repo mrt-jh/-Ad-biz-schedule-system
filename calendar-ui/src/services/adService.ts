@@ -83,7 +83,7 @@ export const getAllAds = async (): Promise<AdData[]> => {
       throw error;
     }
 
-    return data?.map(convertFromDbFormat as any) || [];
+    return data?.map(row => convertFromDbFormat(row as AdScheduleWithRelations)) || [];
   } catch (error) {
     console.error('광고 조회 실패:', error);
     throw error;
@@ -169,7 +169,7 @@ export const getAdById = async (id: string): Promise<AdData | null> => {
       return null
     };
     
-    return convertFromDbFormat(data as any);
+    return convertFromDbFormat(data as AdScheduleWithRelations);
 }
 
 
@@ -289,7 +289,7 @@ export const getAdsByFilter = async (filters: {
       throw error;
     }
 
-    return data?.map(convertFromDbFormat as any) || [];
+    return data?.map(row => convertFromDbFormat(row as AdScheduleWithRelations)) || [];
   } catch (error) {
     console.error('필터링된 광고 조회 실패:', error);
     throw error;
@@ -322,7 +322,7 @@ export const getAdsByDate = async (date: string): Promise<AdData[]> => {
       throw error;
     }
 
-    return data?.map(convertFromDbFormat as any) || [];
+    return data?.map(row => convertFromDbFormat(row as AdScheduleWithRelations)) || [];
   } catch (error) {
     console.error('날짜별 광고 조회 실패:', error);
     throw error;
@@ -330,7 +330,7 @@ export const getAdsByDate = async (date: string): Promise<AdData[]> => {
 };
 
 // Biz-core 광고 생성 (연관 광고)
-export const createBizCoreAds = async (mainAd: AdData): Promise<AdData[]> => {
+export const createBizCoreAds = async (_mainAd: AdData): Promise<AdData[]> => {
   console.warn("createBizCoreAds 기능은 새로운 스키마에 맞게 재구현이 필요합니다.");
   return [];
 }; 
