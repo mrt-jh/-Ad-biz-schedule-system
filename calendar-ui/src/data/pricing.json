@@ -1,0 +1,3058 @@
+[
+  {
+    "placement": "검색 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2565,
+    "daily_max_impression": 855,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 32205,
+    "daily_max_impression": 10735,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 143694,
+    "daily_max_impression": 47898,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 18459,
+    "daily_max_impression": 6153,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 44646,
+    "daily_max_impression": 14882,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 8376,
+    "daily_max_impression": 2792,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 142395,
+    "daily_max_impression": 47465,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2721,
+    "daily_max_impression": 907,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 5148,
+    "daily_max_impression": 1716,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 75948,
+    "daily_max_impression": 25316,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 3264,
+    "daily_max_impression": 1088,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 11757,
+    "daily_max_impression": 3919,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 219333,
+    "daily_max_impression": 73111,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 73011,
+    "daily_max_impression": 24337,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 97014,
+    "daily_max_impression": 32338,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 219600,
+    "daily_max_impression": 73200,
+    "ctr": 0.0015419816578573706
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 234,
+    "daily_max_impression": 78,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 4956,
+    "daily_max_impression": 1652,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 30846,
+    "daily_max_impression": 10282,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2871,
+    "daily_max_impression": 957,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 9078,
+    "daily_max_impression": 3026,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 903,
+    "daily_max_impression": 301,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 32316,
+    "daily_max_impression": 10772,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 309,
+    "daily_max_impression": 103,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 678,
+    "daily_max_impression": 226,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 12423,
+    "daily_max_impression": 4141,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 351,
+    "daily_max_impression": 117,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2328,
+    "daily_max_impression": 776,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 39771,
+    "daily_max_impression": 13257,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 10443,
+    "daily_max_impression": 3481,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 44199,
+    "daily_max_impression": 14733,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 29082,
+    "daily_max_impression": 9694,
+    "ctr": 0.0017503874438703111
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 234,
+    "daily_max_impression": 78,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 5889,
+    "daily_max_impression": 1963,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 21234,
+    "daily_max_impression": 7078,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 3174,
+    "daily_max_impression": 1058,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 6504,
+    "daily_max_impression": 2168,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 369,
+    "daily_max_impression": 123,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 7089,
+    "daily_max_impression": 2363,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 525,
+    "daily_max_impression": 175,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1155,
+    "daily_max_impression": 385,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 11427,
+    "daily_max_impression": 3809,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 603,
+    "daily_max_impression": 201,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2523,
+    "daily_max_impression": 841,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 31449,
+    "daily_max_impression": 10483,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 11541,
+    "daily_max_impression": 3847,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 15693,
+    "daily_max_impression": 5231,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "검색 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 24951,
+    "daily_max_impression": 8317,
+    "ctr": 0.0015729557639325995
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 120,
+    "daily_max_impression": 40,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 570,
+    "daily_max_impression": 190,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 24906,
+    "daily_max_impression": 8302,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 330,
+    "daily_max_impression": 110,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2244,
+    "daily_max_impression": 748,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 105,
+    "daily_max_impression": 35,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 153885,
+    "daily_max_impression": 51295,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 60,
+    "daily_max_impression": 20,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 42,
+    "daily_max_impression": 14,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 984,
+    "daily_max_impression": 328,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 78,
+    "daily_max_impression": 26,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 687,
+    "daily_max_impression": 229,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 7062,
+    "daily_max_impression": 2354,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1242,
+    "daily_max_impression": 414,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 18906,
+    "daily_max_impression": 6302,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2502,
+    "daily_max_impression": 834,
+    "ctr": 0.004365961016947144
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 15,
+    "daily_max_impression": 5,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 60,
+    "daily_max_impression": 20,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1434,
+    "daily_max_impression": 478,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 30,
+    "daily_max_impression": 10,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 249,
+    "daily_max_impression": 83,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 36,
+    "daily_max_impression": 12,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 86355,
+    "daily_max_impression": 28785,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 30,
+    "daily_max_impression": 10,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 30,
+    "daily_max_impression": 10,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 111,
+    "daily_max_impression": 37,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 15,
+    "daily_max_impression": 5,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 69,
+    "daily_max_impression": 23,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 816,
+    "daily_max_impression": 272,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 84,
+    "daily_max_impression": 28,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 10572,
+    "daily_max_impression": 3524,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 204,
+    "daily_max_impression": 68,
+    "ctr": 0.0011089023419278193
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 24,
+    "daily_max_impression": 8,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 129,
+    "daily_max_impression": 43,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2808,
+    "daily_max_impression": 936,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 45,
+    "daily_max_impression": 15,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 468,
+    "daily_max_impression": 156,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 84,
+    "daily_max_impression": 28,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 88620,
+    "daily_max_impression": 29540,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 33,
+    "daily_max_impression": 11,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 21,
+    "daily_max_impression": 7,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 225,
+    "daily_max_impression": 75,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 30,
+    "daily_max_impression": 10,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 150,
+    "daily_max_impression": 50,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1752,
+    "daily_max_impression": 584,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 183,
+    "daily_max_impression": 61,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 18717,
+    "daily_max_impression": 6239,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 378,
+    "daily_max_impression": 126,
+    "ctr": ""
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 72,
+    "daily_max_impression": 24,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 600,
+    "daily_max_impression": 200,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 30087,
+    "daily_max_impression": 10029,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 387,
+    "daily_max_impression": 129,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 3819,
+    "daily_max_impression": 1273,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 180,
+    "daily_max_impression": 60,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 72675,
+    "daily_max_impression": 24225,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 105,
+    "daily_max_impression": 35,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 99,
+    "daily_max_impression": 33,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2286,
+    "daily_max_impression": 762,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 96,
+    "daily_max_impression": 32,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 870,
+    "daily_max_impression": 290,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 9435,
+    "daily_max_impression": 3145,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1515,
+    "daily_max_impression": 505,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 18747,
+    "daily_max_impression": 6249,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 3813,
+    "daily_max_impression": 1271,
+    "ctr": 0.0143955238793046
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 75,
+    "daily_max_impression": 25,
+    "ctr": 0.00016213687131428153
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 9,
+    "daily_max_impression": 3,
+    "ctr": 0.00016213687131428153
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 30,
+    "daily_max_impression": 10,
+    "ctr": 0.00016213687131428153
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 15,
+    "daily_max_impression": 5,
+    "ctr": 0.00016213687131428153
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 28434,
+    "daily_max_impression": 9478,
+    "ctr": 0.00016213687131428153
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 27,
+    "daily_max_impression": 9,
+    "ctr": 0.00016213687131428153
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 9,
+    "daily_max_impression": 3,
+    "ctr": 0.00016213687131428153
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 60,
+    "daily_max_impression": 20,
+    "ctr": 0.00016213687131428153
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 24,
+    "daily_max_impression": 8,
+    "ctr": 0.00016213687131428153
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2487,
+    "daily_max_impression": 829,
+    "ctr": 0.00016213687131428153
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 30,
+    "daily_max_impression": 10,
+    "ctr": 0.00016213687131428153
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 609,
+    "daily_max_impression": 203,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 5826,
+    "daily_max_impression": 1942,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 57147,
+    "daily_max_impression": 19049,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2319,
+    "daily_max_impression": 773,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 9987,
+    "daily_max_impression": 3329,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2064,
+    "daily_max_impression": 688,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 11628,
+    "daily_max_impression": 3876,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 840,
+    "daily_max_impression": 280,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 948,
+    "daily_max_impression": 316,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 11727,
+    "daily_max_impression": 3909,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 582,
+    "daily_max_impression": 194,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 4281,
+    "daily_max_impression": 1427,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 64404,
+    "daily_max_impression": 21468,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 7128,
+    "daily_max_impression": 2376,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 16947,
+    "daily_max_impression": 5649,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 11655,
+    "daily_max_impression": 3885,
+    "ctr": 0.001081655979114791
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 729,
+    "daily_max_impression": 243,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 6948,
+    "daily_max_impression": 2316,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 74478,
+    "daily_max_impression": 24826,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2907,
+    "daily_max_impression": 969,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 13509,
+    "daily_max_impression": 4503,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2850,
+    "daily_max_impression": 950,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 19233,
+    "daily_max_impression": 6411,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1005,
+    "daily_max_impression": 335,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1254,
+    "daily_max_impression": 418,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 14619,
+    "daily_max_impression": 4873,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 747,
+    "daily_max_impression": 249,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 6039,
+    "daily_max_impression": 2013,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 85446,
+    "daily_max_impression": 28482,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 9273,
+    "daily_max_impression": 3091,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 39423,
+    "daily_max_impression": 13141,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 15396,
+    "daily_max_impression": 5132,
+    "ctr": ""
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 153,
+    "daily_max_impression": 51,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1359,
+    "daily_max_impression": 453,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 18732,
+    "daily_max_impression": 6244,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 723,
+    "daily_max_impression": 241,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 3345,
+    "daily_max_impression": 1115,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 810,
+    "daily_max_impression": 270,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 17283,
+    "daily_max_impression": 5761,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 210,
+    "daily_max_impression": 70,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 714,
+    "daily_max_impression": 238,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 3600,
+    "daily_max_impression": 1200,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 306,
+    "daily_max_impression": 102,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1356,
+    "daily_max_impression": 452,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 21003,
+    "daily_max_impression": 7001,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2610,
+    "daily_max_impression": 870,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 36924,
+    "daily_max_impression": 12308,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 4623,
+    "daily_max_impression": 1541,
+    "ctr": 0.002461094227942637
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 312,
+    "daily_max_impression": 104,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1971,
+    "daily_max_impression": 657,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 47682,
+    "daily_max_impression": 15894,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1557,
+    "daily_max_impression": 519,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 8982,
+    "daily_max_impression": 2994,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2067,
+    "daily_max_impression": 689,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 10338,
+    "daily_max_impression": 3446,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 354,
+    "daily_max_impression": 118,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1005,
+    "daily_max_impression": 335,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 6798,
+    "daily_max_impression": 2266,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 621,
+    "daily_max_impression": 207,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 3828,
+    "daily_max_impression": 1276,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 59103,
+    "daily_max_impression": 19701,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 5325,
+    "daily_max_impression": 1775,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 88038,
+    "daily_max_impression": 29346,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 11613,
+    "daily_max_impression": 3871,
+    "ctr": 0.0003667110212378069
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 213,
+    "daily_max_impression": 71,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1155,
+    "daily_max_impression": 385,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 24738,
+    "daily_max_impression": 8246,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1002,
+    "daily_max_impression": 334,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2967,
+    "daily_max_impression": 989,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 201,
+    "daily_max_impression": 67,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 79827,
+    "daily_max_impression": 26609,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 141,
+    "daily_max_impression": 47,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 120,
+    "daily_max_impression": 40,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 4050,
+    "daily_max_impression": 1350,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 231,
+    "daily_max_impression": 77,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 3168,
+    "daily_max_impression": 1056,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 26364,
+    "daily_max_impression": 8788,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 4752,
+    "daily_max_impression": 1584,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 15711,
+    "daily_max_impression": 5237,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 10866,
+    "daily_max_impression": 3622,
+    "ctr": 0.0025581352446300675
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 258,
+    "daily_max_impression": 86,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2652,
+    "daily_max_impression": 884,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 39099,
+    "daily_max_impression": 13033,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2040,
+    "daily_max_impression": 680,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 6681,
+    "daily_max_impression": 2227,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 498,
+    "daily_max_impression": 166,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 37842,
+    "daily_max_impression": 12614,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 309,
+    "daily_max_impression": 103,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 405,
+    "daily_max_impression": 135,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 12459,
+    "daily_max_impression": 4153,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 375,
+    "daily_max_impression": 125,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 4491,
+    "daily_max_impression": 1497,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 44052,
+    "daily_max_impression": 14684,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 7245,
+    "daily_max_impression": 2415,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 24960,
+    "daily_max_impression": 8320,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 20442,
+    "daily_max_impression": 6814,
+    "ctr": 0.004446318942756109
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 459,
+    "daily_max_impression": 153,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 6594,
+    "daily_max_impression": 2198,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 31629,
+    "daily_max_impression": 10543,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 4788,
+    "daily_max_impression": 1596,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 7902,
+    "daily_max_impression": 2634,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1107,
+    "daily_max_impression": 369,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 15555,
+    "daily_max_impression": 5185,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 399,
+    "daily_max_impression": 133,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1275,
+    "daily_max_impression": 425,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 14427,
+    "daily_max_impression": 4809,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 642,
+    "daily_max_impression": 214,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 3669,
+    "daily_max_impression": 1223,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 47133,
+    "daily_max_impression": 15711,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 17949,
+    "daily_max_impression": 5983,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 83220,
+    "daily_max_impression": 27740,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 48096,
+    "daily_max_impression": 16032,
+    "ctr": 0.0007776254579524121
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 162,
+    "daily_max_impression": 54,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2697,
+    "daily_max_impression": 899,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 15252,
+    "daily_max_impression": 5084,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1500,
+    "daily_max_impression": 500,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 3984,
+    "daily_max_impression": 1328,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 783,
+    "daily_max_impression": 261,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 8673,
+    "daily_max_impression": 2891,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 207,
+    "daily_max_impression": 69,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 381,
+    "daily_max_impression": 127,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 7455,
+    "daily_max_impression": 2485,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 249,
+    "daily_max_impression": 83,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1122,
+    "daily_max_impression": 374,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 24102,
+    "daily_max_impression": 8034,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 6705,
+    "daily_max_impression": 2235,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 20094,
+    "daily_max_impression": 6698,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "해외 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 19344,
+    "daily_max_impression": 6448,
+    "ctr": 0.0039220359289151106
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 195,
+    "daily_max_impression": 65,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 13944,
+    "daily_max_impression": 4648,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 36432,
+    "daily_max_impression": 12144,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 10068,
+    "daily_max_impression": 3356,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 9732,
+    "daily_max_impression": 3244,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2829,
+    "daily_max_impression": 943,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 10920,
+    "daily_max_impression": 3640,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 948,
+    "daily_max_impression": 316,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2367,
+    "daily_max_impression": 789,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 40272,
+    "daily_max_impression": 13424,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 795,
+    "daily_max_impression": 265,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 5466,
+    "daily_max_impression": 1822,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 88776,
+    "daily_max_impression": 29592,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 36003,
+    "daily_max_impression": 12001,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 19308,
+    "daily_max_impression": 6436,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 114891,
+    "daily_max_impression": 38297,
+    "ctr": 0.0006954915919627135
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 324,
+    "daily_max_impression": 108,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 9639,
+    "daily_max_impression": 3213,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 69528,
+    "daily_max_impression": 23176,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 5469,
+    "daily_max_impression": 1823,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 16737,
+    "daily_max_impression": 5579,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2172,
+    "daily_max_impression": 724,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 58575,
+    "daily_max_impression": 19525,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 708,
+    "daily_max_impression": 236,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1620,
+    "daily_max_impression": 540,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 24453,
+    "daily_max_impression": 8151,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 681,
+    "daily_max_impression": 227,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 4215,
+    "daily_max_impression": 1405,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 84600,
+    "daily_max_impression": 28200,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 19053,
+    "daily_max_impression": 6351,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 81201,
+    "daily_max_impression": 27067,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 55257,
+    "daily_max_impression": 18419,
+    "ctr": 0.0013851597167007764
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 126,
+    "daily_max_impression": 42,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 5826,
+    "daily_max_impression": 1942,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 17073,
+    "daily_max_impression": 5691,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2277,
+    "daily_max_impression": 759,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 4557,
+    "daily_max_impression": 1519,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 576,
+    "daily_max_impression": 192,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 12174,
+    "daily_max_impression": 4058,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 237,
+    "daily_max_impression": 79,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 420,
+    "daily_max_impression": 140,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 8214,
+    "daily_max_impression": 2738,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 180,
+    "daily_max_impression": 60,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 924,
+    "daily_max_impression": 308,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 21303,
+    "daily_max_impression": 7101,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 8004,
+    "daily_max_impression": 2668,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 19941,
+    "daily_max_impression": 6647,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 21969,
+    "daily_max_impression": 7323,
+    "ctr": 0.00045880946543630676
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 24,
+    "daily_max_impression": 8,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 936,
+    "daily_max_impression": 312,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 4665,
+    "daily_max_impression": 1555,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 558,
+    "daily_max_impression": 186,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1269,
+    "daily_max_impression": 423,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 72,
+    "daily_max_impression": 24,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2127,
+    "daily_max_impression": 709,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 60,
+    "daily_max_impression": 20,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 126,
+    "daily_max_impression": 42,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2217,
+    "daily_max_impression": 739,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 39,
+    "daily_max_impression": 13,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 360,
+    "daily_max_impression": 120,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 8001,
+    "daily_max_impression": 2667,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2367,
+    "daily_max_impression": 789,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1488,
+    "daily_max_impression": 496,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 6876,
+    "daily_max_impression": 2292,
+    "ctr": 0.00008098561811116087
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 75,
+    "daily_max_impression": 25,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 4602,
+    "daily_max_impression": 1534,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 34200,
+    "daily_max_impression": 11400,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2934,
+    "daily_max_impression": 978,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 9159,
+    "daily_max_impression": 3053,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 294,
+    "daily_max_impression": 98,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 35346,
+    "daily_max_impression": 11782,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 297,
+    "daily_max_impression": 99,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 645,
+    "daily_max_impression": 215,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 9870,
+    "daily_max_impression": 3290,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 219,
+    "daily_max_impression": 73,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2025,
+    "daily_max_impression": 675,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 41238,
+    "daily_max_impression": 13746,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 10542,
+    "daily_max_impression": 3514,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 264,
+    "daily_max_impression": 88,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "여행 예정자 퍼널",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 33405,
+    "daily_max_impression": 11135,
+    "ctr": 0.0012086088710652728
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 16968,
+    "daily_max_impression": 707,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 293640,
+    "daily_max_impression": 12235,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2142840,
+    "daily_max_impression": 89285,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 209640,
+    "daily_max_impression": 8735,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 529992,
+    "daily_max_impression": 22083,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 84144,
+    "daily_max_impression": 3506,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2863848,
+    "daily_max_impression": 119327,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 24312,
+    "daily_max_impression": 1013,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 48384,
+    "daily_max_impression": 2016,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 833400,
+    "daily_max_impression": 34725,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 26424,
+    "daily_max_impression": 1101,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 195456,
+    "daily_max_impression": 8144,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 3040704,
+    "daily_max_impression": 126696,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 716544,
+    "daily_max_impression": 29856,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2894640,
+    "daily_max_impression": 120610,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "인터랙티브",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2028240,
+    "daily_max_impression": 84510,
+    "ctr": 0.01673092382566865
+  },
+  {
+    "placement": "메인 홈",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 600,
+    "daily_max_impression": 75,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 12784,
+    "daily_max_impression": 1598,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 80952,
+    "daily_max_impression": 10119,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 7408,
+    "daily_max_impression": 926,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 22472,
+    "daily_max_impression": 2809,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 4128,
+    "daily_max_impression": 516,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 136104,
+    "daily_max_impression": 17013,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 984,
+    "daily_max_impression": 123,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1752,
+    "daily_max_impression": 219,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 35016,
+    "daily_max_impression": 4377,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 920,
+    "daily_max_impression": 115,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 9024,
+    "daily_max_impression": 1128,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 137432,
+    "daily_max_impression": 17179,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 26416,
+    "daily_max_impression": 3302,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 88632,
+    "daily_max_impression": 11079,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인 홈",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 69176,
+    "daily_max_impression": 8647,
+    "ctr": 0.005395723152883776
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1248,
+    "daily_max_impression": 156,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 16224,
+    "daily_max_impression": 2028,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "China / Japan",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 91472,
+    "daily_max_impression": 11434,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "Eastern Europe / the Balkans",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 10872,
+    "daily_max_impression": 1359,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "HongKong / Macao / Taiwan / Singapore",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 24536,
+    "daily_max_impression": 3067,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "India / Central-Southern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 5480,
+    "daily_max_impression": 685,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "Korea",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 59336,
+    "daily_max_impression": 7417,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "Latin America / Caribbean",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 1688,
+    "daily_max_impression": 211,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 4528,
+    "daily_max_impression": 566,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "North America",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 47128,
+    "daily_max_impression": 5891,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "Northern Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 2008,
+    "daily_max_impression": 251,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "South Pacific",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 7400,
+    "daily_max_impression": 925,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "South-Eastern Asia",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 128208,
+    "daily_max_impression": 16026,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "Southern Europe / Turkey",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 42008,
+    "daily_max_impression": 5251,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "unknown",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 248880,
+    "daily_max_impression": 31110,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "메인홈 전면배너",
+    "target": "Western Europe",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 108944,
+    "daily_max_impression": 13618,
+    "ctr": 0.006872005636843973
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Africa",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 6,
+    "daily_max_impression": 2,
+    "ctr": 0.00016213687131428153
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Australia / New Zealand",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 12,
+    "daily_max_impression": 4,
+    "ctr": 0.00016213687131428153
+  },
+  {
+    "placement": "국내 퍼널",
+    "target": "Middle East",
+    "buying_method": "타겟 단위 당 일 단위 판매",
+    "unit_price": 6,
+    "daily_max_impression": 2,
+    "ctr": 0.00016213687131428153
+  }
+]
