@@ -149,3 +149,4 @@ interface AdData {
 ## 📝 라이선스
 
 MIT License
+// Updated for Node.js version compatibility
