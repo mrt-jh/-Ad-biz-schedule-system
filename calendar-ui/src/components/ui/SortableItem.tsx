@@ -1,15 +1,15 @@
 import React from 'react';
 import { useSortable } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
-import { AdData, formatExposure } from '../constants/adConstants';
+import { AdData, formatExposure } from '../../constants/adConstants';
 
 interface SortableItemProps {
   id: string;
   ad: AdData;
-  onClick: () => void;
+  advertiserColors: Record<string, string>;
 }
 
-export function SortableItem({ id, ad, onClick }: SortableItemProps) {
+export function SortableItem({ id, ad, advertiserColors }: SortableItemProps) {
   const {
     attributes,
     listeners,
@@ -23,44 +23,34 @@ export function SortableItem({ id, ad, onClick }: SortableItemProps) {
     transition,
   };
 
-  const exposureStr = formatExposure(ad.guaranteedExposure);
+  const statusInfo = {
+    scheduled: { bgColor: 'bg-gray-400', label: '예약' },
+    active: { bgColor: advertiserColors[ad.advertiserName] || 'bg-blue-500', label: '진행중' },
+    paused: { bgColor: 'bg-yellow-500', label: '중단' },
+    completed: { bgColor: 'bg-green-500', label: '완료' },
+    cancelled: { bgColor: 'bg-red-500', label: '취소' },
+  };
 
+  const { bgColor, label } = statusInfo[ad.status] || statusInfo.scheduled;
+  const textColor = 'text-white';
+  
   return (
-    <div
-      ref={setNodeRef}
-      style={style}
-      {...attributes}
-      {...listeners}
-      className={`p-2 rounded border cursor-move ${
-        ad.status === 'confirmed' 
-          ? 'bg-blue-50 border-blue-200' 
-          : 'bg-gray-50 border-gray-200'
-      } hover:shadow-md transition-shadow`}
-      onClick={onClick}
-    >
-      <div className="flex items-center justify-between">
-        <div className="flex-1">
-          <div className="font-medium text-gray-900">
-            [{ad.majorCategory}{ad.minorCategory ? `/${ad.minorCategory}` : ''}] {ad.advertiserName}
-          </div>
-          <div className="text-sm text-gray-600 mt-0.5">
-            <span>담당: {ad.salesOwner}</span>
-            {ad.countries.length > 0 && !ad.countries.includes('전체') && (
-              <span className="ml-3">타겟: {ad.countries.join(', ')}</span>
-            )}
-            {exposureStr && (
-              <span className="ml-3">노출: {exposureStr}</span>
-            )}
-            {ad.isPriority && <span className="ml-2 text-yellow-500">★</span>}
-          </div>
-          {ad.memo && (
-            <div className="text-sm text-gray-500 mt-0.5">
-              메모: {ad.memo}
-            </div>
-          )}
+    <div ref={setNodeRef} style={style} {...attributes} {...listeners}>
+      <div className={`p-2 rounded-md shadow-sm h-full flex flex-col justify-between ${bgColor} ${textColor}`}>
+        <div>
+          <div className="font-bold truncate">{ad.campaignName}</div>
+          <div className="text-xs truncate">{ad.advertiserName} ({ad.salesOwner})</div>
         </div>
-        <div className="text-xs text-gray-400 ml-2">
-          {ad.status === 'confirmed' ? '확정' : '제안'}
+        <div className="text-right text-sm font-semibold">
+          {formatExposure(ad.guaranteedExposure)}
+        </div>
+        <div className="flex items-center text-xs opacity-80 mt-1">
+          <svg className="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+          {ad.startDate}
+        </div>
+        <div className="absolute top-1 right-1 flex items-center">
+          {ad.isPriority && <span className="text-yellow-300 mr-1" title="우선순위">⭐</span>}
+          <span className="text-xs font-semibold px-1.5 py-0.5 rounded-full bg-white/20">{label}</span>
         </div>
       </div>
     </div>

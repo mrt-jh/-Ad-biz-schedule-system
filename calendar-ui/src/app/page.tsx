@@ -9,7 +9,7 @@ import {
   formatExposure,
   formatCategory,
   formatCountries,
-} from '../constants/adConstants';
+} from '@/constants/adConstants';
 import { useAds } from '../hooks/useAds';
 import { generateAdvertiserColors } from '../utils/colors';
 import * as adService from '../services/adService';
