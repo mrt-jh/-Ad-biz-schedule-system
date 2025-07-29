@@ -1,32 +1,55 @@
 import React, { useState, useMemo } from 'react';
-import { CONTINENTS_AND_COUNTRIES, ALL_COUNTRIES, CONTINENTS } from '../constants/adConstants';
+
+interface CountryData {
+  name: string;
+  continent: string;
+}
 
 interface CountrySelectorProps {
   selectedCountries: string[];
   onCountryChange: (countries: string[]) => void;
-  label?: string;
+  countriesData: CountryData[];
 }
 
-// 타입 안전성을 위한 헬퍼 타입
-type ContinentData = { [key: string]: readonly string[] };
-
-export function CountrySelector({ selectedCountries, onCountryChange, label = "타겟 국가" }: CountrySelectorProps) {
+const CountrySelector: React.FC<CountrySelectorProps> = ({
+  selectedCountries,
+  onCountryChange,
+  countriesData = [],
+}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedContinent, setSelectedContinent] = useState('');
 
-  // 타입 안전한 데이터 변환
-  const continentsData = CONTINENTS_AND_COUNTRIES as ContinentData;
+  const { CONTINENTS, ALL_COUNTRIES, CONTINENTS_AND_COUNTRIES } = useMemo(() => {
+    if (!countriesData || countriesData.length === 0) {
+      return { CONTINENTS: [], ALL_COUNTRIES: [], CONTINENTS_AND_COUNTRIES: {} };
+    }
+    const continents = [...new Set(countriesData.map(c => c.continent))].sort();
+    const allCountries = countriesData.map(c => c.name).sort();
+    const continentsAndCountries = countriesData.reduce((acc, country) => {
+      if (!acc[country.continent]) {
+        acc[country.continent] = [];
+      }
+      acc[country.continent].push(country.name);
+      return acc;
+    }, {} as Record<string, string[]>);
+
+    return { 
+      CONTINENTS: continents, 
+      ALL_COUNTRIES: allCountries, 
+      CONTINENTS_AND_COUNTRIES: continentsAndCountries 
+    };
+  }, [countriesData]);
 
   // 검색 필터링된 국가들
   const filteredCountries = useMemo(() => {
     if (!searchTerm && !selectedContinent) {
-      return continentsData;
+      return CONTINENTS_AND_COUNTRIES;
     }
 
     const filtered: { [key: string]: string[] } = {};
 
-    Object.entries(continentsData).forEach(([continent, countries]) => {
+    Object.entries(CONTINENTS_AND_COUNTRIES).forEach(([continent, countries]) => {
       // 대륙 필터가 있으면 해당 대륙만
       if (selectedContinent && continent !== selectedContinent) {
         return;
@@ -44,7 +67,7 @@ export function CountrySelector({ selectedCountries, onCountryChange, label = "�
     });
 
     return filtered;
-  }, [searchTerm, selectedContinent, continentsData]);
+  }, [searchTerm, selectedContinent, CONTINENTS_AND_COUNTRIES]);
 
   // 국가 선택/해제 핸들러
   const handleCountryToggle = (country: string) => {
@@ -56,7 +79,7 @@ export function CountrySelector({ selectedCountries, onCountryChange, label = "�
 
   // 대륙 전체 선택/해제
   const handleContinentToggle = (continent: string) => {
-    const continentCountries = continentsData[continent];
+    const continentCountries = CONTINENTS_AND_COUNTRIES[continent];
     if (!continentCountries) return;
     
     const countriesArray = Array.from(continentCountries);
@@ -84,7 +107,7 @@ export function CountrySelector({ selectedCountries, onCountryChange, label = "�
 
   return (
     <div className="relative">
-      <label className="block text-sm font-medium text-gray-700 mb-2">{label}</label>
+      <label className="block text-sm font-medium text-gray-700 mb-2">타겟 국가</label>
       
       {/* 선택된 국가 표시 */}
       <div 
