@@ -1,25 +1,40 @@
 import React, { useState, useMemo, useRef, useEffect } from 'react';
-import { CONTINENTS, ALL_COUNTRIES } from '../constants/adConstants';
+
+interface CountryData {
+  name: string;
+  continent: string;
+}
 
 interface ContinentCountrySelectorProps {
   selectedContinents: string[];
+  onContinentChange: (continents: string[]) => void;
   selectedCountries: string[];
-  onContinentsChange: (continents: string[]) => void;
-  onCountriesChange: (countries: string[]) => void;
+  onCountryChange: (countries: string[]) => void;
+  countriesData: CountryData[];
 }
 
-const ContinentCountrySelector: React.FC<ContinentCountrySelectorProps> = ({
+export default function ContinentCountrySelector({
   selectedContinents,
+  onContinentChange,
   selectedCountries,
-  onContinentsChange,
-  onCountriesChange,
-}) => {
+  onCountryChange,
+  countriesData = [],
+}: ContinentCountrySelectorProps) {
   const [isContinentDropdownOpen, setContinentDropdownOpen] = useState(false);
   const [isCountryDropdownOpen, setCountryDropdownOpen] = useState(false);
-  const [countrySearchTerm, setCountrySearchTerm] = useState('');
-
+  const [countrySearch, setCountrySearch] = useState('');
+  
   const continentRef = useRef<HTMLDivElement>(null);
   const countryRef = useRef<HTMLDivElement>(null);
+
+  const { CONTINENTS, ALL_COUNTRIES } = useMemo(() => {
+    if (!countriesData || countriesData.length === 0) {
+      return { CONTINENTS: [], ALL_COUNTRIES: [] };
+    }
+    const continents = [...new Set(countriesData.map(c => c.continent))].sort();
+    const allCountries = countriesData.map(c => c.name).sort();
+    return { CONTINENTS: continents, ALL_COUNTRIES: allCountries };
+  }, [countriesData]);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -40,21 +55,21 @@ const ContinentCountrySelector: React.FC<ContinentCountrySelectorProps> = ({
     const newSelection = selectedContinents.includes(continent)
       ? selectedContinents.filter(c => c !== continent)
       : [...selectedContinents, continent];
-    onContinentsChange(newSelection);
+    onContinentChange(newSelection);
   };
 
   const handleCountryToggle = (country: string) => {
     const newSelection = selectedCountries.includes(country)
       ? selectedCountries.filter(c => c !== country)
       : [...selectedCountries, country];
-    onCountriesChange(newSelection);
+    onCountryChange(newSelection);
   };
 
   const filteredCountries = useMemo(() => {
     return ALL_COUNTRIES.filter(country =>
-      country.toLowerCase().includes(countrySearchTerm.toLowerCase())
+      country.toLowerCase().includes(countrySearch.toLowerCase())
     );
-  }, [countrySearchTerm]);
+  }, [countrySearch]);
 
   return (
     <div className="flex gap-6">
@@ -102,9 +117,9 @@ const ContinentCountrySelector: React.FC<ContinentCountrySelectorProps> = ({
             <input
               type="text"
               placeholder="국가 검색..."
-              value={countrySearchTerm}
+              value={countrySearch}
               onChange={e => {
-                setCountrySearchTerm(e.target.value);
+                setCountrySearch(e.target.value);
                 if (!isCountryDropdownOpen) {
                   setCountryDropdownOpen(true);
                 }
@@ -152,6 +167,4 @@ const ContinentCountrySelector: React.FC<ContinentCountrySelectorProps> = ({
       </div>
     </div>
   );
-};
-
-export default ContinentCountrySelector; 
+}; 

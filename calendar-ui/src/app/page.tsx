@@ -12,14 +12,34 @@ import {
 } from '../constants/adConstants';
 import { useAds } from '../hooks/useAds';
 import { generateAdvertiserColors } from '../utils/colors';
+import * as adService from '../services/adService';
+
+interface CountryData {
+  name: string;
+  continent: string;
+}
 
 export default function Home() {
   const { ads, loading, error, addAd, updateAd, deleteAd } = useAds();
   const [filters, setFilters] = useState({ advertiserName: '' });
   const [showAddForm, setShowAddForm] = useState(false);
   const [notification, setNotification] = useState<{type: 'success' | 'error', message: string} | null>(null);
+  const [countriesData, setCountriesData] = useState<CountryData[]>([]);
   
   const [formData, setFormData] = useState(INITIAL_FORM_DATA);
+
+  useEffect(() => {
+    const fetchCountries = async () => {
+      try {
+        const data = await adService.getAllCountries();
+        setCountriesData(data);
+      } catch (err) {
+        console.error("Failed to fetch countries:", err);
+      }
+    };
+
+    fetchCountries();
+  }, []);
 
   const advertiserColors = useMemo(() => {
     const uniqueAdvertisers = [...new Set(ads.map(ad => ad.advertiserName))];

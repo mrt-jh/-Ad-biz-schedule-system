@@ -333,4 +333,14 @@ export const getAdsByDate = async (date: string): Promise<AdData[]> => {
 export const createBizCoreAds = async (_mainAd: AdData): Promise<AdData[]> => {
   console.warn("createBizCoreAds 기능은 새로운 스키마에 맞게 재구현이 필요합니다.");
   return [];
-}; 
+};
+
+// 모든 국가 정보 조회
+export const getAllCountries = async () => {
+  const { data, error } = await supabase.from('countries').select('name, continent').order('name');
+  if (error) {
+    console.error("국가 정보 조회 오류:", error);
+    throw error;
+  }
+  return data;
+} 
