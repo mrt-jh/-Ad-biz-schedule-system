@@ -57,15 +57,7 @@ export default function Home() {
 
   const handleAddAd = async () => {
     try {
-      // TODO: campaignId, slotTypeId 등 실제 존재하는 ID를 선택하도록 UI 구현 필요
-      // 현재는 임시값으로 하드코딩합니다.
-      const temporaryFormData: Partial<AdData> = {
-        ...formData,
-        campaignId: "f1b9b8b0-4c8d-4a2d-8b8b-8b8b8b8b8b8b", // 임시 캠페인 ID
-        slotTypeId: "a1b9b8b0-4c8d-4a2d-8b8b-8b8b8b8b8b8b", // 임시 구좌 타입 ID
-      };
-
-      await addAd(temporaryFormData);
+      await addAd(formData);
       
       setFormData(INITIAL_FORM_DATA);
       setShowAddForm(false);
@@ -79,7 +71,7 @@ export default function Home() {
   const showAdDetails = (ad: AdData) => {
     alert(`
       광고 상세 정보:
-      캠페인: ${ad.campaignName}
+      카테고리: ${formatCategory(ad.majorCategory, ad.minorCategory)}
       광고주: ${ad.advertiserName}
       담당자: ${ad.salesOwner}
       구좌 타입: ${ad.slotType}
@@ -87,6 +79,7 @@ export default function Home() {
       국가: ${formatCountries(ad.countries)}
       보장 노출수: ${formatExposure(ad.guaranteedExposure)}
       상태: ${ad.status}
+      우선순위: ${ad.isPriority ? '1순위' : '일반'}
       메모: ${ad.memo || ''}
     `);
   };

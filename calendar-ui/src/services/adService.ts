@@ -1,80 +1,64 @@
 import { supabase } from '../lib/supabase';
 import { AdData } from '../constants/adConstants';
-import type { Database } from '../lib/supabase';
+import type { Database } from '../types/database.types';
 
-type AdScheduleRow = Database['public']['Tables']['ad_schedules']['Row'];
-type AdScheduleInsert = Database['public']['Tables']['ad_schedules']['Insert'];
-type AdScheduleUpdate = Database['public']['Tables']['ad_schedules']['Update'];
-type CampaignRow = Database['public']['Tables']['campaigns']['Row'];
-type AdvertiserRow = Database['public']['Tables']['advertisers']['Row'];
+type AdRow = Database['public']['Tables']['ads']['Row'];
+type AdInsert = Database['public']['Tables']['ads']['Insert'];
+type AdUpdate = Database['public']['Tables']['ads']['Update'];
 type SalesOwnerRow = Database['public']['Tables']['sales_owners']['Row'];
-type CountryRow = Database['public']['Tables']['countries']['Row'];
-type SlotTypeRow = Database['public']['Tables']['slot_types']['Row'];
 
-// DB 조인 결과 타입을 정의합니다.
-type AdScheduleWithRelations = AdScheduleRow & {
-  campaigns: CampaignRow & {
-    advertisers: AdvertiserRow;
-    sales_owners: SalesOwnerRow;
-  };
-  slot_types: SlotTypeRow;
-  ad_targeting: {
-    countries: CountryRow;
-  }[];
+// DB 조인 결과 타입
+type AdWithSalesOwner = AdRow & {
+  sales_owners: SalesOwnerRow | null;
 };
 
-
-// AdData를 DB 형식으로 변환 (ad_schedules 테이블용)
-const convertToDbFormat = (ad: Partial<AdData>): AdScheduleInsert => ({
-  campaign_id: ad.campaignId!,
-  slot_type_id: ad.slotTypeId!,
-  slot_order: ad.slotOrder || null,
+// AdData를 DB 형식으로 변환
+const convertToDbFormat = (ad: Partial<AdData>): AdInsert => ({
+  major_category: ad.majorCategory!,
+  minor_category: ad.minorCategory || null,
+  advertiser_name: ad.advertiserName!,
+  sales_owner_id: ad.salesOwner ? undefined : null, // 담당자 이름으로 ID 찾아야 함
   start_date: ad.startDate!,
   end_date: ad.endDate!,
+  countries: ad.countries || [],
+  continents: ad.continents || [],
+  is_priority: ad.isPriority || false,
   guaranteed_exposure: ad.guaranteedExposure!,
   status: ad.status!,
-  memo: ad.memo!,
+  memo: ad.memo || '',
+  slot_type: ad.slotType!,
+  slot_order: ad.slotOrder || null,
+  parent_id: ad.parentId || null,
 });
 
 // DB 형식을 AdData로 변환
-const convertFromDbFormat = (row: AdScheduleWithRelations): AdData => ({
+const convertFromDbFormat = (row: AdWithSalesOwner): AdData => ({
   id: row.id,
-  campaignId: row.campaign_id,
-  campaignName: row.campaigns.name,
-  advertiserName: row.campaigns.advertisers.name,
-  salesOwner: row.campaigns.sales_owners.name,
-  slotTypeId: row.slot_type_id,
-  slotType: row.slot_types.name,
-  slotOrder: row.slot_order || undefined,
+  majorCategory: row.major_category,
+  minorCategory: row.minor_category || undefined,
+  advertiserName: row.advertiser_name,
+  salesOwner: row.sales_owners?.name || '미지정',
   startDate: row.start_date,
   endDate: row.end_date,
+  countries: row.countries,
+  continents: row.continents,
+  isPriority: row.is_priority,
   guaranteedExposure: row.guaranteed_exposure,
   status: row.status,
   memo: row.memo,
-  countries: row.ad_targeting.map(t => t.countries.name),
-  continents: [...new Set(row.ad_targeting.map(t => t.countries.continent))],
-  majorCategory: 'TBD', 
-  minorCategory: 'TBD',
-  isPriority: row.campaigns.priority_level > 0,
+  slotType: row.slot_type,
+  slotOrder: row.slot_order || undefined,
+  parentId: row.parent_id || undefined,
 });
-
 
 // 모든 광고 조회
 export const getAllAds = async (): Promise<AdData[]> => {
   try {
     const { data, error } = await supabase
-      .from('ad_schedules')
+      .from('ads')
       .select(`
         *,
-        campaigns:campaign_id (
-          *,
-          advertisers:advertiser_id (*),
-          sales_owners:sales_owner_id (*)
-        ),
-        slot_types:slot_type_id (*),
-        ad_targeting (
-          countries:country_id (*)
-        )
+        sales_owners (*)
       `)
       .order('created_at', { ascending: false });
 
@@ -83,140 +67,108 @@ export const getAllAds = async (): Promise<AdData[]> => {
       throw error;
     }
 
-    return data?.map(row => convertFromDbFormat(row as AdScheduleWithRelations)) || [];
+    return data?.map(row => convertFromDbFormat(row as AdWithSalesOwner)) || [];
   } catch (error) {
     console.error('광고 조회 실패:', error);
     throw error;
   }
 };
 
-// 광고 추가
+// 광고 생성
 export const createAd = async (ad: Partial<AdData>): Promise<AdData> => {
   try {
+    // 담당자 이름으로 ID 찾기
+    let salesOwnerId = null;
+    if (ad.salesOwner) {
+      const { data: ownerData } = await supabase
+        .from('sales_owners')
+        .select('id')
+        .eq('name', ad.salesOwner)
+        .single();
+      
+      salesOwnerId = ownerData?.id || null;
+    }
+
     const dbData = convertToDbFormat(ad);
-    
+    dbData.sales_owner_id = salesOwnerId;
+
     const { data, error } = await supabase
-      .from('ad_schedules')
+      .from('ads')
       .insert(dbData)
-      .select()
+      .select(`
+        *,
+        sales_owners (*)
+      `)
       .single();
 
     if (error) {
       console.error('광고 생성 오류:', error);
       throw error;
     }
-    
-    // 타겟팅 정보 추가
-    if (ad.countries && ad.countries.length > 0) {
-      const countryIds = await getCountryIds(ad.countries);
-      const targetingData = countryIds.map(country_id => ({
-        ad_schedule_id: data.id,
-        country_id: country_id
-      }));
-      
-      const { error: targetingError } = await supabase
-        .from('ad_targeting')
-        .insert(targetingData);
 
-      if (targetingError) {
-        console.error('타겟팅 정보 추가 오류:', targetingError);
-        await supabase.from('ad_schedules').delete().eq('id', data.id);
-        throw targetingError;
-      }
-    }
-
-    const newAd = await getAdById(data.id);
-    if (!newAd) throw new Error("Failed to fetch the newly created ad.");
-    return newAd;
-
+    return convertFromDbFormat(data as AdWithSalesOwner);
   } catch (error) {
     console.error('광고 생성 실패:', error);
     throw error;
   }
 };
 
-// 국가 이름으로 ID 조회
-const getCountryIds = async (countryNames: string[]): Promise<string[]> => {
-  const { data, error } = await supabase
-    .from('countries')
-    .select('id')
-    .in('name', countryNames);
-  if (error) throw error;
-  return data.map(c => c.id);
-};
-
-// ID로 단일 광고 조회 (Join 포함)
-export const getAdById = async (id: string): Promise<AdData | null> => {
-    const { data, error } = await supabase
-      .from('ad_schedules')
-      .select(`
-        *,
-        campaigns:campaign_id (
-          *,
-          advertisers:advertiser_id (*),
-          sales_owners:sales_owner_id (*)
-        ),
-        slot_types:slot_type_id (*),
-        ad_targeting (
-          countries:country_id (*)
-        )
-      `)
-      .eq('id', id)
-      .single();
-      
-    if (error) {
-      console.error(`ID(${id})로 광고 조회 오류:`, error);
-      return null
-    };
-    
-    return convertFromDbFormat(data as AdScheduleWithRelations);
-}
-
-
 // 광고 수정
 export const updateAd = async (id: string, updates: Partial<AdData>): Promise<AdData> => {
   try {
-    const updateData: Partial<AdScheduleUpdate> = {};
-    
-    if (updates.campaignId) updateData.campaign_id = updates.campaignId;
-    if (updates.slotTypeId) updateData.slot_type_id = updates.slotTypeId;
-    if (updates.startDate) updateData.start_date = updates.startDate;
-    if (updates.endDate) updateData.end_date = updates.endDate;
-    if (updates.guaranteedExposure) updateData.guaranteed_exposure = updates.guaranteedExposure;
-    if (updates.status) updateData.status = updates.status;
-    if (updates.memo) updateData.memo = updates.memo;
-    if (updates.slotOrder) updateData.slot_order = updates.slotOrder;
-    
-    updateData.updated_at = new Date().toISOString();
+    // 담당자 이름으로 ID 찾기 (필요한 경우)
+    let salesOwnerId = undefined;
+    if (updates.salesOwner) {
+      const { data: ownerData } = await supabase
+        .from('sales_owners')
+        .select('id')
+        .eq('name', updates.salesOwner)
+        .single();
+      
+      salesOwnerId = ownerData?.id || null;
+    }
+
+    const dbUpdates: AdUpdate = {
+      major_category: updates.majorCategory,
+      minor_category: updates.minorCategory,
+      advertiser_name: updates.advertiserName,
+      sales_owner_id: salesOwnerId,
+      start_date: updates.startDate,
+      end_date: updates.endDate,
+      countries: updates.countries,
+      continents: updates.continents,
+      is_priority: updates.isPriority,
+      guaranteed_exposure: updates.guaranteedExposure,
+      status: updates.status,
+      memo: updates.memo,
+      slot_type: updates.slotType,
+      slot_order: updates.slotOrder,
+      parent_id: updates.parentId,
+    };
+
+    // undefined 값 제거
+    Object.keys(dbUpdates).forEach(key => {
+      if (dbUpdates[key as keyof AdUpdate] === undefined) {
+        delete dbUpdates[key as keyof AdUpdate];
+      }
+    });
 
     const { data, error } = await supabase
-      .from('ad_schedules')
-      .update(updateData)
+      .from('ads')
+      .update(dbUpdates)
       .eq('id', id)
-      .select()
+      .select(`
+        *,
+        sales_owners (*)
+      `)
       .single();
 
     if (error) {
       console.error('광고 수정 오류:', error);
       throw error;
     }
-    
-    if (updates.countries) {
-      await supabase.from('ad_targeting').delete().eq('ad_schedule_id', id);
-      if (updates.countries.length > 0) {
-        const countryIds = await getCountryIds(updates.countries);
-        const targetingData = countryIds.map(country_id => ({
-          ad_schedule_id: id,
-          country_id: country_id
-        }));
-        await supabase.from('ad_targeting').insert(targetingData);
-      }
-    }
-    
-    const updatedAd = await getAdById(id);
-    if (!updatedAd) throw new Error("Failed to fetch the updated ad.");
-    return updatedAd;
 
+    return convertFromDbFormat(data as AdWithSalesOwner);
   } catch (error) {
     console.error('광고 수정 실패:', error);
     throw error;
@@ -226,11 +178,8 @@ export const updateAd = async (id: string, updates: Partial<AdData>): Promise<Ad
 // 광고 삭제
 export const deleteAd = async (id: string): Promise<void> => {
   try {
-    // ad_targeting에서 먼저 삭제
-    await supabase.from('ad_targeting').delete().eq('ad_schedule_id', id);
-    
     const { error } = await supabase
-      .from('ad_schedules')
+      .from('ads')
       .delete()
       .eq('id', id);
 
@@ -244,6 +193,39 @@ export const deleteAd = async (id: string): Promise<void> => {
   }
 };
 
+// 스케줄 충돌 체크
+export const checkScheduleConflict = async (
+  slotType: string,
+  startDate: string,
+  endDate: string,
+  excludeId?: string
+): Promise<boolean> => {
+  try {
+    let query = supabase
+      .from('ads')
+      .select('id')
+      .eq('slot_type', slotType)
+      .eq('status', 'confirmed')
+      .or(`start_date.lte.${endDate},end_date.gte.${startDate}`);
+
+    if (excludeId) {
+      query = query.neq('id', excludeId);
+    }
+
+    const { data, error } = await query;
+
+    if (error) {
+      console.error('스케줄 충돌 체크 오류:', error);
+      throw error;
+    }
+
+    return (data?.length || 0) > 0;
+  } catch (error) {
+    console.error('스케줄 충돌 체크 실패:', error);
+    throw error;
+  }
+};
+
 // 조건별 광고 조회
 export const getAdsByFilter = async (filters: {
   advertiserName?: string;
@@ -253,33 +235,36 @@ export const getAdsByFilter = async (filters: {
   salesOwner?: string;
 }): Promise<AdData[]> => {
   try {
-    let query = supabase.from('ad_schedules').select(`
-      *,
-      campaigns:campaign_id!inner (
+    let query = supabase
+      .from('ads')
+      .select(`
         *,
-        advertisers:advertiser_id!inner (*),
-        sales_owners:sales_owner_id!inner (*)
-      ),
-      slot_types:slot_type_id (*),
-      ad_targeting (
-        countries:country_id (*)
-      )
-    `);
+        sales_owners (*)
+      `);
 
     if (filters.advertiserName) {
-      query = query.eq('campaigns.advertisers.name', filters.advertiserName);
+      query = query.eq('advertiser_name', filters.advertiserName);
     }
     if (filters.status) {
       query = query.eq('status', filters.status);
-    }
-    if (filters.salesOwner) {
-      query = query.eq('campaigns.sales_owners.name', filters.salesOwner);
     }
     if (filters.startDate) {
       query = query.gte('start_date', filters.startDate);
     }
     if (filters.endDate) {
       query = query.lte('end_date', filters.endDate);
+    }
+    if (filters.salesOwner) {
+      // 담당자 이름으로 필터링
+      const { data: ownerData } = await supabase
+        .from('sales_owners')
+        .select('id')
+        .eq('name', filters.salesOwner)
+        .single();
+      
+      if (ownerData) {
+        query = query.eq('sales_owner_id', ownerData.id);
+      }
     }
 
     const { data, error } = await query.order('created_at', { ascending: false });
@@ -289,7 +274,7 @@ export const getAdsByFilter = async (filters: {
       throw error;
     }
 
-    return data?.map(row => convertFromDbFormat(row as AdScheduleWithRelations)) || [];
+    return data?.map(row => convertFromDbFormat(row as AdWithSalesOwner)) || [];
   } catch (error) {
     console.error('필터링된 광고 조회 실패:', error);
     throw error;
@@ -300,18 +285,10 @@ export const getAdsByFilter = async (filters: {
 export const getAdsByDate = async (date: string): Promise<AdData[]> => {
   try {
     const { data, error } = await supabase
-      .from('ad_schedules')
+      .from('ads')
       .select(`
         *,
-        campaigns:campaign_id (
-          *,
-          advertisers:advertiser_id (*),
-          sales_owners:sales_owner_id (*)
-        ),
-        slot_types:slot_type_id (*),
-        ad_targeting (
-          countries:country_id (*)
-        )
+        sales_owners (*)
       `)
       .lte('start_date', date)
       .gte('end_date', date)
@@ -322,25 +299,57 @@ export const getAdsByDate = async (date: string): Promise<AdData[]> => {
       throw error;
     }
 
-    return data?.map(row => convertFromDbFormat(row as AdScheduleWithRelations)) || [];
+    return data?.map(row => convertFromDbFormat(row as AdWithSalesOwner)) || [];
   } catch (error) {
     console.error('날짜별 광고 조회 실패:', error);
     throw error;
   }
 };
 
-// Biz-core 광고 생성 (연관 광고)
-export const createBizCoreAds = async (_mainAd: AdData): Promise<AdData[]> => {
-  console.warn("createBizCoreAds 기능은 새로운 스키마에 맞게 재구현이 필요합니다.");
-  return [];
-};
-
 // 모든 국가 정보 조회
 export const getAllCountries = async () => {
-  const { data, error } = await supabase.from('countries').select('name, continent').order('name');
+  const { data, error } = await supabase
+    .from('countries')
+    .select('name, continent')
+    .order('name');
+    
   if (error) {
     console.error("국가 정보 조회 오류:", error);
     throw error;
   }
-  return data;
-} 
+  return data || [];
+};
+
+// 모든 담당자 정보 조회
+export const getAllSalesOwners = async () => {
+  const { data, error } = await supabase
+    .from('sales_owners')
+    .select('id, name, email, department')
+    .order('name');
+    
+  if (error) {
+    console.error("담당자 정보 조회 오류:", error);
+    throw error;
+  }
+  return data || [];
+};
+
+// Biz-core 광고 생성 (연관 광고)
+export const createBizCoreAds = async (mainAd: AdData): Promise<AdData[]> => {
+  // 새 스키마에서는 parent_id를 사용하여 연관 광고 생성
+  try {
+    const bizCoreAd: Partial<AdData> = {
+      ...mainAd,
+      id: undefined,
+      slotType: 'Biz-core',
+      parentId: mainAd.id,
+      memo: `${mainAd.memo} (Biz-core 연관 광고)`
+    };
+
+    const created = await createAd(bizCoreAd);
+    return [created];
+  } catch (error) {
+    console.error('Biz-core 광고 생성 실패:', error);
+    throw error;
+  }
+}; 
